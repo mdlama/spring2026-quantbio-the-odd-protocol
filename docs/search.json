@@ -1,0 +1,142 @@
+[
+  {
+    "objectID": "The_ODD_Protocol_Slides.html#class-announcements",
+    "href": "The_ODD_Protocol_Slides.html#class-announcements",
+    "title": "Describing and Formulating ABMs: The ODD Protocol",
+    "section": "Class Announcements",
+    "text": "Class Announcements\n\nPlease read Chapter 3: Describing and Formulating ABMs: The ODD Protocol\nPlease skim Chapter 4: Implementing a First Agent-Based Model"
+  },
+  {
+    "objectID": "The_ODD_Protocol_Slides.html#why-odd",
+    "href": "The_ODD_Protocol_Slides.html#why-odd",
+    "title": "Describing and Formulating ABMs: The ODD Protocol",
+    "section": "Why ODD?",
+    "text": "Why ODD?\n\nUseful for describing ABMs (model protocol; standardization)\nUseful for understanding ABMs (multiple model representations)\nUseful for replicating ABMs (model reproducibility)\nUseful for formulating ABMs (modeling roadmap; guides thinking)"
+  },
+  {
+    "objectID": "The_ODD_Protocol_Slides.html#the-odd-protocol-1",
+    "href": "The_ODD_Protocol_Slides.html#the-odd-protocol-1",
+    "title": "Describing and Formulating ABMs: The ODD Protocol",
+    "section": "The ODD Protocol",
+    "text": "The ODD Protocol\n“ODD” = “Overview, Design concepts, and Details”"
+  },
+  {
+    "objectID": "The_ODD_Protocol_Slides.html#learning-objectives",
+    "href": "The_ODD_Protocol_Slides.html#learning-objectives",
+    "title": "Describing and Formulating ABMs: The ODD Protocol",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nBe able to name the benefits of using a “Materials and Methods” protocol (e.g. ODD) for reporting and organizing the steps of agent-based model design and analysis.\n\nDescribing\nUnderstanding\nReplicating\nFormulating\n\n\n\nDURF"
+  },
+  {
+    "objectID": "The_ODD_Protocol_Slides.html#learning-objectives-1",
+    "href": "The_ODD_Protocol_Slides.html#learning-objectives-1",
+    "title": "Describing and Formulating ABMs: The ODD Protocol",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nDevelop a firm understanding of the “Overview” and “Details” elements of ODD."
+  },
+  {
+    "objectID": "The_ODD_Protocol_Slides.html#learning-objectives-2",
+    "href": "The_ODD_Protocol_Slides.html#learning-objectives-2",
+    "title": "Describing and Formulating ABMs: The ODD Protocol",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nDevelop an introductory understanding of the “Design concepts” element of ODD."
+  },
+  {
+    "objectID": "The_ODD_Protocol_Slides.html#learning-objectives-3",
+    "href": "The_ODD_Protocol_Slides.html#learning-objectives-3",
+    "title": "Describing and Formulating ABMs: The ODD Protocol",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nUnderstand, from its ODD description, the model we will program and use in chapters 4 and 5."
+  },
+  {
+    "objectID": "The_ODD_Protocol_Slides.html#the-odd-protocol-running-example-chap.-4-5",
+    "href": "The_ODD_Protocol_Slides.html#the-odd-protocol-running-example-chap.-4-5",
+    "title": "Describing and Formulating ABMs: The ODD Protocol",
+    "section": "The ODD Protocol: Running Example (Chap. 4 & 5)",
+    "text": "The ODD Protocol: Running Example (Chap. 4 & 5)\nVirtual Corridors of Butterflies"
+  },
+  {
+    "objectID": "The_ODD_Protocol_Slides.html#the-odd-protocol-2",
+    "href": "The_ODD_Protocol_Slides.html#the-odd-protocol-2",
+    "title": "Describing and Formulating ABMs: The ODD Protocol",
+    "section": "The ODD Protocol",
+    "text": "The ODD Protocol\n\nODD: Overview"
+  },
+  {
+    "objectID": "The_ODD_Protocol_Slides.html#the-odd-protocol-3",
+    "href": "The_ODD_Protocol_Slides.html#the-odd-protocol-3",
+    "title": "Describing and Formulating ABMs: The ODD Protocol",
+    "section": "The ODD Protocol",
+    "text": "The ODD Protocol\n\n\n\nODD: Overview -&gt; Purpose\n\n\n\n\n\n\n\nWhat is the system we are modeling?\nWhat do we want the model to tell us about the system?\nWhat is the question we are trying to answer or the problem we are trying to solve?"
+  },
+  {
+    "objectID": "The_ODD_Protocol_Slides.html#the-odd-protocol-4",
+    "href": "The_ODD_Protocol_Slides.html#the-odd-protocol-4",
+    "title": "Describing and Formulating ABMs: The ODD Protocol",
+    "section": "The ODD Protocol",
+    "text": "The ODD Protocol\n\n\n\nPurpose: Explore questions about virtual corridors. Under what conditions do the interactions of butterfly hilltopping behavior and landscape topography lead to the emergence of virtual corridors? How does this variability in the butterflies’ tendency to move uphill affect the emergence of virtual corridors?\n\n\n\n\n\nQuestion: What are the explanatory variables and processes and what is the system output we are interested in?"
+  },
+  {
+    "objectID": "The_ODD_Protocol_Slides.html#the-odd-protocol-5",
+    "href": "The_ODD_Protocol_Slides.html#the-odd-protocol-5",
+    "title": "Describing and Formulating ABMs: The ODD Protocol",
+    "section": "The ODD Protocol",
+    "text": "The ODD Protocol\n\n\n\nODD: Overview -&gt; Entities, state variables, and scales\n\n\n\n\n\n\n\nObject types (can be multiple categories for each):\n\nAgents (“individuals”)\nPatches (space/local environment)\nGlobal environment"
+  },
+  {
+    "objectID": "The_ODD_Protocol_Slides.html#the-odd-protocol-6",
+    "href": "The_ODD_Protocol_Slides.html#the-odd-protocol-6",
+    "title": "Describing and Formulating ABMs: The ODD Protocol",
+    "section": "The ODD Protocol",
+    "text": "The ODD Protocol\n\n\n\nODD: Overview -&gt; Entities, state variables, and scales\n\n\n\n\n\n\n\nState variables (how you classify objects):\n\nAgents -&gt; Attributes and behavior\nPatches -&gt; Attributes and behavior (e.g. coordinates)\nGlobal spatial environment -&gt; Time-dependent variables\n\nVariables vary across time or space\nParameters DO NOT vary in time or space"
+  },
+  {
+    "objectID": "The_ODD_Protocol_Slides.html#the-odd-protocol-7",
+    "href": "The_ODD_Protocol_Slides.html#the-odd-protocol-7",
+    "title": "Describing and Formulating ABMs: The ODD Protocol",
+    "section": "The ODD Protocol",
+    "text": "The ODD Protocol\n\n\n\nODD: Overview -&gt; Entities, state variables, and scales\n\n\n\n\n\n\n\nTime and space scales:\n\nTemporal/spatial extent: Usually determined by system-level phenomena of interest\nTemporal/spatial resolution: Usually determined by agent/patch-level phenomena of importance\n\nDiscrete or continuous"
+  },
+  {
+    "objectID": "The_ODD_Protocol_Slides.html#the-odd-protocol-8",
+    "href": "The_ODD_Protocol_Slides.html#the-odd-protocol-8",
+    "title": "Describing and Formulating ABMs: The ODD Protocol",
+    "section": "The ODD Protocol",
+    "text": "The ODD Protocol\n\n\n\nEntities, state variables, and scales\n\n\n\nEntities\n\nAgents: Butterflies\nPatches: Land\n\n\nState variables\n\nButterflies: Patch coordinates (discrete)\nPatches: Elevation\n\nScales\n\nSpace: 150 x 150 grid; each grid is 25 x 25 \\(m^2\\)\nTime: 1000 time steps; 1 step=time to move 1 patch"
+  },
+  {
+    "objectID": "The_ODD_Protocol_Slides.html#the-odd-protocol-9",
+    "href": "The_ODD_Protocol_Slides.html#the-odd-protocol-9",
+    "title": "Describing and Formulating ABMs: The ODD Protocol",
+    "section": "The ODD Protocol",
+    "text": "The ODD Protocol\n\n\n\nODD: Overview -&gt; Process Overview and Scheduling\n\n\n\n\n\n\n\nProcesses describe behavior or dynamics of model entities (and observer measures).\nDynamics = change of state variables.\n\nWhat are model entities doing (actions/behavior)?\nHow does the environment change?\n\nOverview description (submodels)"
+  },
+  {
+    "objectID": "The_ODD_Protocol_Slides.html#the-odd-protocol-10",
+    "href": "The_ODD_Protocol_Slides.html#the-odd-protocol-10",
+    "title": "Describing and Formulating ABMs: The ODD Protocol",
+    "section": "The ODD Protocol",
+    "text": "The ODD Protocol\n\n\n\nODD: Overview -&gt; Process Overview and Scheduling\n\n\n\n\n\n\n\nObserver measures: Quantify and record measure of system state.\n\nDisplay system state in graphs.\nMeasure system state with statistical summaries.\n\nModel interpretation and learning intimately tied to how you observe system!!!\nObserver measures are to models as data are to experiments."
+  },
+  {
+    "objectID": "The_ODD_Protocol_Slides.html#the-odd-protocol-11",
+    "href": "The_ODD_Protocol_Slides.html#the-odd-protocol-11",
+    "title": "Describing and Formulating ABMs: The ODD Protocol",
+    "section": "The ODD Protocol",
+    "text": "The ODD Protocol\n\n\n\nProcess Overview and Scheduling There is only one process in the model: movement of the butterflies. On each time step, each butterfly moves once. The order in which the butterflies execute this action is unimportant because there are no interactions among the butterflies."
+  },
+  {
+    "objectID": "The_ODD_Protocol_Slides.html#the-odd-protocol-12",
+    "href": "The_ODD_Protocol_Slides.html#the-odd-protocol-12",
+    "title": "Describing and Formulating ABMs: The ODD Protocol",
+    "section": "The ODD Protocol",
+    "text": "The ODD Protocol\n\n\n\nODD: Design concepts\n\n\n\n\n\n\n\nThese are important aspects that must be addressed when creating agent-based models.\nThese concepts are specific to agent-based models. Other types of models would have different design concepts.\nTake a look at Chapter 3"
+  },
+  {
+    "objectID": "The_ODD_Protocol_Slides.html#the-odd-protocol-13",
+    "href": "The_ODD_Protocol_Slides.html#the-odd-protocol-13",
+    "title": "Describing and Formulating ABMs: The ODD Protocol",
+    "section": "The ODD Protocol",
+    "text": "The ODD Protocol\n\n\n\nODD: Details\n\n\n\n\n\n\n\nInitialization: Specify initial conditions for all state variables of all entities.\nInput data: Time-dependent external forces that effect the system (e.g. weather).\nSubmodels: Details of submodels specified in the process overview. Will include equations, logical rules, and algorithms."
+  }
+]
