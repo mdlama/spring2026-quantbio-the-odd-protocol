@@ -1,0 +1,105 @@
+html {
+  background: white;
+  font-family: 'Droid Serif';
+}
+
+.reveal section del {
+  color: red;
+}
+
+.section .reveal .title {
+  color: black;
+}
+
+.reveal section a:link {
+  color: blue;
+  text-decoration: underline;
+}
+
+.smallcode pre code {
+  font-size: 1.0em;
+}
+
+.reveal blockquote {
+  background: black;
+  color: white;
+  padding: 15px;
+}
+
+/* Hard to read on black background */
+.reveal blockquote a:not(.image) {
+  color: #3f8dc6;
+  text-decoration: underline;
+}
+
+/* Hard to read on black background */
+.reveal blockquote a:not(.image):hover {
+  color: #A3F1FF;
+  text-decoration: underline;
+}
+
+.reveal .definition {
+  background: #748915;
+  color: white;
+  padding: 15px;
+  margin: -15px;
+}
+
+.reveal .definition emph {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.reveal .definition strong {
+  color: #d7eb7f;
+  font-weight: bold;
+}
+
+.reveal .discuss {
+  background: #891515;
+  color: white;
+  padding: 15px;
+  margin: -15px;
+}
+
+.reveal .discuss emph {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.reveal .discuss strong {
+  color: #f1a2a4;
+  font-weight: bold;
+}
+
+.reveal .quote {
+  background: #157878;
+  color: white;
+  padding: 15px;
+  margin: -15px;
+}
+
+.reveal .quote emph {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.reveal .quote strong {
+  color: #79E6E6;
+  font-weight: bold;
+}
+
+.reveal .nobullet {
+  color: white;
+}
+
+.reveal .nobullet span {
+  color: black;
+}
+
+.column blockquote {
+  background: black;
+  color: white;
+  padding: 15px;
+}
+
